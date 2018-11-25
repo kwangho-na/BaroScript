@@ -1,0 +1,57 @@
+print("=========== Baro Script ============");
+
+inc('common.comm');
+inc('common.dev');
+inc('common.etc');
+inc('common.class');
+inc('common.util');
+inc('common.my');
+
+/*
+inc('common.comm');
+inc('common.dev');
+inc('common.etc');
+inc('common.HotKey');
+inc('common.editor', 'common');
+inc('common.grid', 'common');
+inc('common.tree', 'common');
+inc('common.combo', 'common');
+inc('common.class', 'common');
+inc('common.draw', 'common');
+
+page=pageLoad('dev.ScriptRunPage');
+page.open();
+
+page=pageLoad('baro.command').commandEditorPage();
+page=pageLoad('baro.pages').funcManager();
+
+print(@localParams);
+print(@funcsTotal);
+@_command.hotKeyStart();
+
+call( conf('src.commonFunc') );
+
+parent=pageLoad('dev.tool');
+page=parent.commandTool();
+
+page=pageLoad('공통페이지.데모').소스실행();
+
+page=baroMainPage('baroDevTool');
+
+Cf.debug(true);
+*/
+
+
+Cf[singleMode]= true;
+System.wait(true);
+parent=pageLoad('dev.tool');
+page=baroMainPage('baroDevTool');
+
+not( typeof(page,'page') ) {
+	print(@error, "시작페이지 오류");
+}
+System.wait('end');
+page.open();
+Cf[mainPage]=page;
+
+

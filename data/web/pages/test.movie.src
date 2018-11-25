@@ -1,0 +1,21 @@
+onInit() {
+	cf={tag:config};
+	db=Class.db('sample');
+	not( db.open() ) db.open('data/sample.db');
+}
+
+search(req) {
+	this.var( startTick, System.tick() );
+	confValue('web.common/html');
+	param=req.param();
+	// #본문 출력
+	@webPage.movieSearch('searchForm');
+	@webPage.movieSearch('searchList', param);
+	// #왼쪽메뉴 출력
+	@webPage.movieSearch('nav');
+	css=conf('web.common/css');
+	header="년도별 영화정보조회";
+	footer="영화정보 조회~ 즐거운 시간 되세요";
+	fn=Cf.funcNode();
+	req.send( confValue('web.common/html',fn) );   
+}

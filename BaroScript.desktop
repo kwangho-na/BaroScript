@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=BaroScript
+Comment=MyScript
+Icon=/home/pi/app/BaroScript/BaroScript.png
+Exec=/home/pi/app/BaroScript.sh
+Terminal=false
+StartupNotify=false
+Categories=Utility

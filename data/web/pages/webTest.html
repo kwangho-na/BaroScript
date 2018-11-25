@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Beautiful HTML5 JavaScript Charts | CanvasJS</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-title" content="CanvasJS - Beautiful HTML5 Charts | CanvasJS">
+	<meta name="description" content="HTML5 JavaScript Charts that are built on top of HTML5 Canvas Element. Renders across devices &amp; is 10x faster than SVG based Charting Libraries.">
+	<link rel="canonical" href="">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Beautiful HTML5 JavaScript Charts | CanvasJS">
+	<meta property="og:description" content="HTML5 JavaScript Charts built on top of HTML5 Canvas Element. Renders across devices &amp; is 10x faster than JavaScript Charting libraries based on SVG.">
+	<meta property="og:url" content="">
+	<meta property="og:site_name" content="CanvasJS">
+	<meta property="og:image" content="wp-content/uploads/2013/04/canvasjs.jpg">
+	<meta property="og:image:secure_url" content="wp-content/uploads/2013/04/canvasjs.jpg">
+	<meta property="og:image:width" content="620">
+	<meta property="og:image:height" content="257">
+	<meta property="og:image:alt" content="CanvasJS HTML5 Charts">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:description" content="HTML5 JavaScript Charts that are built on top of HTML5 Canvas Element. Renders across devices &amp; is 10x faster than SVG based Charting Libraries.">
+	<meta name="twitter:title" content="Beautiful HTML5 JavaScript Charts | CanvasJS">
+	<meta name="twitter:site" content="@canvasjs">
+	<meta name="twitter:image" content="wp-content/uploads/2013/04/canvasjs.jpg">
+	<meta name="twitter:creator" content="@sunilurs">
+	<meta name="msvalidate.01" content="975E21F5F83A116AEE1377BBCC2A15ED">
+	<meta name="google-site-verification" content="BpWUycOPd1EY5GFd8FnQe6IzxIh38mgy00pRbGiCdJs">
+    
+    <link rel="shortcut icon" href="favicon.ico?v=1.1">
+    <style>
+        .gsc-search-button{
+            display: none;
+        }
+        
+        
+        #gSearch {
+                    width: 220px;
+                    height: 40px;
+                }
+            #gSearch .gsc-control-cse{
+                padding : 0px 0px 2px 0px;
+            }
+            #gSearch td.gsc-input {
+                padding-right:0px;
+            }
+            #gSearch .gsc-input-box  td input.gsc-input {
+                height:34px;
+                padding-right: 30px;
+            }
+             #gSearch .gsc-input-box  td {
+                height: 34px;
+
+            }
+            .gsc-input > .gsc-input-box {
+                height:38px;
+                border-radius:4px;
+                border: 1px solid #D9D9D9;
+                background: white;
+            }
+            .gsc-input  .gsib_a {
+                padding-right: 30px;
+            }
+            .gsc-input  .gsib_b{
+                display:none;
+            }
+            
+
+            input.gsc-input::-webkit-input-placeholder{
+                font-size: 12px!important;
+                color: #c1c1c1;
+            }
+
+        
+       @media screen and (max-width: 1199px) {
+            body #hubspot-messages-iframe-container {
+                display: none !important;
+            }
+        }
+        .modal-open .modal-backdrop.in {
+            opacity: 0.7;
+        }
+
+    </style>
+
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="combined-1-css" href="/css/combined-1.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="combined-2-css" href="/css/combined-2.min.css" type="text/css" media="all">
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/jquery-migrate.min.js"></script>
+
+</head>
+
+<body class="home page-template page-template-page-home page-template-page-home-php page page-id-5 body-page-home navbar-fix-body">
+<style type="text/css">html.hs-messages-widget-open.hs-messages-mobile,html.hs-messages-widget-open.hs-messages-mobile body{height:100%!important;overflow:hidden!important;position:relative!important}html.hs-messages-widget-open.hs-messages-mobile body{margin:0!important}#hubspot-messages-iframe-container{display:initial!important;z-index:2147483647;position:fixed!important;bottom:0!important;right:0!important}#hubspot-messages-iframe-container.internal{z-index:1016}#hubspot-messages-iframe-container.internal iframe{min-width:108px}#hubspot-messages-iframe-container .shadow{display:initial!important;z-index:-1;position:absolute;width:0;height:0;bottom:0;right:0;content:""}#hubspot-messages-iframe-container .shadow.active{width:400px;height:400px;background:radial-gradient(ellipse at bottom right,rgba(29,39,54,.16) 0,rgba(29,39,54,0) 72%)}#hubspot-messages-iframe-container iframe{display:initial!important;width:100%!important;height:100%!important;border:none!important;position:absolute!important;bottom:0!important;right:0!important;background:transparent!important}
+</style>
+ 
+<header>
+	<nav  class="navbar navbar-custom navbar-shadow navbar-fixed-top-below-lg navbar-fixed-top">
+		<div  class="container-fluid p-0">
+			<div  class="navbar-header">
+				<button  class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				</button>
+				<a  class="navbar-brand" href="" title="CanvasJS" rel="home">
+				</a>
+			</div>
+			<div  class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul  id="menu-navbar" class="nav navbar-nav">
+					<li  id="menu-item-8589" class="menu-item menu-item-type-post_type menu-item-object-page">
+						<a  href="javascript-charts/">
+							Chart Demos
+						</a>
+					</li>
+					<li  id="menu-item-21130" class="hide-doc menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown">
+						<a  href="#" data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle">
+							Integrations 
+						</a>
+						<ul  class=" dropdown-menu multi-column-dropdown" role="menu">
+							<div  class="row row-eq-height mx-0">
+								<li  id="menu-item-21131" class="menu-column-title menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown-submenu">
+									<div  class="col-lg-6 columns">
+										<h5>
+											Front End Technology Samples
+										</h5>
+										<ul  role="menu">
+											<li  id="menu-item-21133" class="menu-item menu-item-type-custom menu-item-object-custom">
+												<a  href="react-charts/">
+													React Charts
+												</a>
+											</li>
+											<li  id="menu-item-21134" class="menu-item menu-item-type-custom menu-item-object-custom">
+												<a  href="angular-charts/">
+													Angular Charts
+												</a>
+											</li>
+											<li  id="menu-item-21132" class="menu-item menu-item-type-custom menu-item-object-custom">
+												<a  href="javascript-charts/">
+													Javascript Charts
+												</a>
+											</li>
+											<li  id="menu-item-21135" class="menu-item menu-item-type-custom menu-item-object-custom">
+												<a  href="jquery-charts/">
+													jQuery Charts
+												</a>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li  id="menu-item-21136" class="menu-column-title menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown-submenu">
+									<div  class="col-lg-6 columns">
+										<h5>
+											Server Side Technology Samples
+										</h5>
+										<ul  role="menu">
+											<li  id="menu-item-21137" class="menu-item menu-item-type-custom menu-item-object-custom">
+												<a  href="php-charts/">
+													PHP Charts
+												</a>
+											</li>
+											<li  id="menu-item-21138" class="menu-item menu-item-type-custom menu-item-object-custom">
+												<a  href="asp-net-mvc-charts/">
+													ASP.NET MVC Charts
+												</a>
+											</li>
+											<li  id="menu-item-21139" class="menu-item menu-item-type-custom menu-item-object-custom">
+												<a  href="spring-mvc-charts/">
+													Spring MVC Charts
+												</a>
+											</li>
+											<li  id="menu-item-21140" class="menu-item menu-item-type-custom menu-item-object-custom">
+												<a  href="jsp-charts/">
+													JSP Charts
+												</a>
+											</li>
+										</ul>
+									</div>
+								</li>
+							</div>
+						</ul>
+					</li>
+					<li  id="menu-item-12893" class="menu-item menu-item-type-post_type menu-item-object-page">
+						<a  href="samples/dashboards/">
+							Dashboards
+						</a>
+					</li>
+				</ul>
+				<ul  class="nav navbar-nav navbar-right visible-lg">					
+					<li>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
+
+    <script>
+    if( ( document.documentMode && document.documentMode == 10 ) ){
+                jQuery(".talkToUs").addClass("hide");
+    }
+    </script>
+	<!-- End Header. Begin Template Content -->
+
+  <section class="wrapper-fluid hero-wrapper text-center text-sm-left py-0">
+    <div class="container-fluid hero">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <h1 class="display-4 fw-400">Beautiful HTML5 JavaScript Charts</h1>
+          <p class="lead mb-5">Responsive HTML5 Charting Library with a Simple API and 10x Performance – makes your dashboards fly!</p>
+        </div>
+      </div>
+      <!-- /row -->
+
+      <div class="row mb-4">
+        <div class="col-md-5 col-md-offset-1">
+          <div class="features-list">
+            <h4 class="feature">Simple API</h4>
+            <h4 class="feature">10x Performance</h4>
+            <h4 class="feature">30 Chart Types</h4>
+            <h4 class="feature">Well Documented</h4>
+            <h4 class="feature">Supports Chrome, Firefox, Safari, IE8+</h4>
+            <h4 class="feature">Support Directly From Developers</h4>
+          </div>
+        </div>
+      </div>
+      <!-- /row -->
+
+      <div class="row mb-0 pb-3">
+        <div class="col-md-10 col-md-offset-1">
+          <a href="javascript-charts/" class="btn btn-success btn-lg w-280 mb-3 mr-sm-3">JavaScript Charts Gallery</a>
+          <a href="download-html5-charting-graphing-library/" class="btn btn-outline-custom-primary btn-lg w-280 mb-3 visible-md-inline-block visible-lg-inline-block">Download v2.2</a>
+        </div>
+      </div>
+      <!--/row -->
+    </div>
+  </section>
+  <!-- /hero -->
+
+  <!-- customers -->
+  <section class="wrapper-fluid our-customers section-scroll">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1 col-md-12 col-md-offset-0 col-xl-10 col-xl-offset-1 px-md-5 px-xl-default">
+          <div class="section-heading text-center">
+            <h2 class="mb-4">World’s best companies use CanvasJS to Visualize their Data</h2>
+          </div>
+
+          <div class="row">
+              #row1
+          </div>
+          <!-- /row-->
+
+          <h2 class="text-center mt-3 mt-xl-5">Trusted by 500K+ Users in 192 Countries</h2>
+
+        </div>
+      </div>
+      <!-- /row -->
+    </div>  
+  </section>
+  <!-- /customers -->
+
+  <!-- features -->
+  <section class="wrapper-fluid bg-highlight section-scroll" id="feature-section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1 col-md-12 col-md-offset-0 col-xl-10 col-xl-offset-1 px-md-5 px-xl-default">
+          <div class="section-heading">
+            <h2 class="title">Features <small class="ml-2 lead">checkout some of the features CanvasJS provides out of the box to get you started immediately</small></h2>
+          </div>
+        </div>
+      </div>
+      <!-- /row -->
+
+<div  class="row">
+	<div  class="col-sm-10 col-sm-offset-1 col-md-12 col-md-offset-0 col-xl-10 col-xl-offset-1 px-md-5 px-xl-default">
+		<div  class="card card-shadow mb-5">
+			<p  class="lead">
+				CanvasJS supports 30 different types of Charts and renders across devices including iPhone, iPad, Android, Mac &amp; PCs. This allows you to create rich dashboards that work across devices without compromising on maintainability or functionality of your web application. Graphs include several good looking themes and are 10x faster than conventional Flash / SVG based Charting Libraries – resulting in lightweight, beautiful and responsive dashboards
+			</p>
+		</div>
+	</div>
+</div>
+  </section>
+  <!-- /features -->
+
+  <!-- simple API -->
+<section  class="wrapper-fluid simple-api section-scroll">
+	<div  class="container-fluid">
+		<div  class="row">
+			<div  class="col-sm-10 col-sm-offset-1 col-md-12 col-md-offset-0 col-xl-10 col-xl-offset-1 px-md-5 px-xl-default">
+				<div  class="section-heading">
+					<h2  class="title">
+						Simple API
+					</h2>
+					<p  class="lead">
+						Simple &amp; intuitive Charting API in JavaScript. Don’t take our word for it. Try out the API 
+						<span  class="visible-md-inline visible-lg-inline">
+							below
+						</span>
+						!
+					</p>
+				</div>
+				<h4  class="fw-400 mb-0 visible-md-block visible-lg-block">
+					<span  class="label label-success fw-300">
+						Try Editing The Code
+					</span>
+				</h4>
+				<div  class="row">					
+					<div  class="col-lg-6 col-lg-pull-6 editor-col-left pb-3">						
+						<div  class="visible-sm-block">
+							aaaaa
+						</div>
+					</div>
+				</div>
+				<div  class="row technologies">
+					bbbb
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+  <!-- /simple API -->
+ 
+
+  <!-- explore -->
+  <section class="wrapper-fluid explore section-scroll">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1 col-md-12 col-md-offset-0 col-xl-10 col-xl-offset-1 px-md-5 px-xl-default">
+
+          <div class="section-heading">
+            <h2 class="title">Explore</h2>
+            <p class="lead">Checkout the links below to get started immediately</p>
+          </div>
+
+          <a href="docs/charts/basics-of-creating-html5-chart/">
+            <div class="row mb-5 explore-row">
+              <div class="col-sm-3 col-md-2">
+                <div>
+                  <p class="text-center"><i class="fa fa-plug fa-5x" aria-hidden="true"></i></p>
+                  <h3 class="title text-center">5-minute Jumpstart</h3>
+                </div>
+              </div>
+
+              <div class="col-sm-9 col-md-10">
+                <p class="info text-center text-md-left">Create your first Chart in under 5 minutes! Learn the most commonly used features</p>
+              </div>
+            </div>
+            <!-- /row -->
+          </a>
+
+          <a href="javascript-charts/">
+            <div class="row mb-5 explore-row">
+              <div class="col-sm-3 col-md-2">
+                <div>
+                  <p class="text-center"><i class="fa fa-picture-o fa-5x" aria-hidden="true"></i></p>
+                  <h3 class="title text-center">Gallery</h3>
+                </div>
+              </div>
+
+              <div class="col-sm-9 col-md-10">
+                <p class="info text-center text-md-left pt-sm-0 pt-md-2">Take a look at our gallery that showcases beautiful themes, features and capabilities of our Charting Library</p>
+              </div>
+            </div>
+            <!-- /row -->
+          </a>
+
+          <a href="forums/">
+            <div class="row mb-5 explore-row">
+              <div class="col-sm-3 col-md-2">
+                <div>
+                  <p class="text-center"><i class="fa fa-comments fa-5x" aria-hidden="true"></i></p>
+                  <h3 class="title text-center">Forum</h3>
+                </div>
+              </div>
+
+              <div class="col-sm-9 col-md-10">
+                <p class="info text-center text-md-left">If you have to report any bug or ask questions, this is the place</p>
+              </div>
+            </div>
+            <!--/row -->
+          </a>
+
+        </div>
+      </div>
+      <!-- row -->
+    </div>  
+  </section>
+  <!-- /explore -->
+
+  
+						
+					
+
+
+<div class="modal fade" id="MeetingModal" role="dialog">
+    <div class="modal-dialog mt-0 mt-xl-1 " style="min-width:780px">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header p-1" style="border:none;">
+          <button type="button" class="close" data-dismiss="modal" style="font-size:32px;margin-right:10px">×</button>
+        </div>
+        <div class="modal-body px-2">
+          <div class="meetings-iframe-container" data-src="https://meetings.hubspot.com/indranil?embed=true"> </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+<!--footer--> 
+		<footer class="bg-inverse footer">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-10 col-sm-offset-1 text-center text-sm-left quick-links">
+						
+						<div class="row">
+							<div class="col-sm-3 col-xs-6 py-4 first-col">
+								<h5 class="heading">© fenopix</h5>
+								<ul class="list-unstyled">
+									<li><a href="about/">About Us</a></li>
+									<li><a href="faq/">FAQs</a></li>
+									<li><a href="https://angel.co/canvasjs/jobs">Careers</a></li>
+									<li><a href="privacy-policy/">Privacy Policy</a></li>
+								</ul>
+							</div>
+
+							<div class="col-sm-3 col-xs-6 py-4 second-col">
+								<h5 class="heading">Server Side Technologies</h5>
+								<ul class="list-unstyled">
+									<li><a href="asp-net-mvc-charts/">ASP.NET MVC Charts</a></li>
+									<li><a href="php-charts/">PHP Charts</a></li>
+									<li><a href="jsp-charts/">JSP Charts</a></li>
+									<li><a href="spring-mvc-charts/">Spring MVC Charts</a></li>
+								</ul>
+							</div>
+
+							<div class="col-sm-3 col-xs-6 py-4 third-col">
+								<h5 class="heading">Front End Technologies</h5>
+								<ul class="list-unstyled">
+									<li><a href="javascript-charts/">JavaScript Charts</a></li>
+									<li><a href="jquery-charts/">jQuery Charts</a></li>
+									<li><a href="react-charts/">React Charts</a></li>
+									<li><a href="angular-charts/">Angular Charts</a></li>
+								</ul>
+							</div>
+
+							<div class="col-sm-3 col-xs-6 py-4 fourth-col">
+								<h5 class="heading">Contact</h5>
+								<ul class="list-unstyled">
+									<li style="color:#a8aaad">Fenopix, Inc.</li>
+									<li style="color:#a8aaad">340 S Lemon Ave, #8004,</li>
+                                    <li style="color:#a8aaad">Walnut, California 91789</li>
+                                    <li style="color:#a8aaad">United States Of America</li>
+								</ul>
+							</div>
+						</div>
+						<!-- /row -->
+					
+					</div>
+					
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- cconainer-fluid -->
+			
+			<div class="container-fluid pt-5">
+				<div class="row text-center py-3 social-icons">
+					<div class="col-xs-4 col-lg-3 col-lg-offset-1"><a href="https://twitter.com/canvasjs" aria-label="twitter"><i class="fa fa-twitter fa-2x"></i></a></div>
+					<div class="col-xs-4 col-lg-3"><a href="https://angel.co/canvasjs/jobs" aria-label="angellist"><i class="fa fa-angellist fa-2x"></i></a></div>
+					<div class="col-xs-4 col-lg-3"><a href="https://www.facebook.com/canvasjs/" aria-label="facebook"><i class="fa fa-facebook fa-2x"></i></a></div>
+				</div> 
+			</div>
+		</footer>
+ 
+	
+
+<span style="position: absolute; left: 0px; top: -20000px; padding: 0px; margin: 0px; border: none; white-space: pre; line-height: normal; font-family: &quot;Trebuchet MS&quot;, Helvetica, sans-serif; font-size: 16px; font-weight: normal; display: none;">Mpgyi</span>
+<table  cellspacing="0" cellpadding="0" class="gstl_50 gssb_c" style="width: 209px; display: none; top: 55px; position: absolute; left: 1213px;">
+	<tbody>
+		<tr>
+		</tr>
+	</tbody>
+</table>
+
+<div id="hubspot-messages-iframe-container" style="width: 108px; height: 92px;"><div class="shadow"></div>
+</div>
+ </body>
+</html>

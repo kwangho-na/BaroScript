@@ -1,0 +1,17 @@
+print("=========== Baro Script ============");
+
+inc('common.comm');
+inc('common.dev');
+inc('common.etc');
+inc('common.class');
+inc('common.util');
+inc('common.my');
+ 
+page=baroPage('키오스크샘플','temp');
+not( typeof(page,'page') ) {
+	print(@error, "시작페이지 오류");
+}
+page.open();
+Cf[mainPage]=page;
+
+

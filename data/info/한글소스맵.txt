@@ -1,0 +1,384 @@
+'ㄱㅈ'=>객체정보(^|)
+'ㅜ피'=>nvl(^|)
+'모델'=>model(^|)
+
+'ㅐㅔ두'=>open()
+'ㄱㄷㅁㅇ'=>read(^|)
+'ㅈ걋ㄷ'=>write(^|)
+'래금ㅅ'=>format(^|)
+'ㄴ쇼ㅣㄷ'=>style(^|)
+'랴딩'=>field(^|)
+'갸홋'=>right(^|)
+'ㅣㄷㄽ'=>left(^|)
+'ㄷㄱ객'=>error()
+'애쥐ㅐㅁㅇ'=>download(^|)
+'ㅇㄷ챙ㄷ'=>decode(^|)
+'두챙ㄷ'=>encode(^|)
+'촏차'=>check(^|)
+'ㅁㅇ어ㅐㅠ'=>addJob(^|)
+'랴딛ㄴ'=>fields(^|)
+'쟝소'=>width(^|)
+'ㅗ댜홋'=>height(^|)
+'ㅑㅜㅊㄱㅌ'=>incrX(^|)
+'ㅑㅜㅊ교'=>incrY(^|)
+'ㅑㅜㅊㄱㅉ'=>incrW(^|)
+'ㅑㅜㅊ고'=>incrH(^|)
+'ㅡㄷㄱㅎㄷ'=>merge(^|)
+'ㄱ뭏ㄷ'=>range(^|)
+'ㅔㄱㄷㅍ촘ㄱ'=>prevChar()
+'ㅔㄱㄷㅍ짹ㅇ'=>prevWord();
+'ㅔㅐㄴㅅㄸㅍ둣'=>postEvent(^|)
+'ㄴ딛ㅊㅅ래ㅣㅇㄷㄱ'=>selectFolder()
+'갲채ㅕㅜㅅ'=>rowCount()
+'랴ㅜ얘ㅜㄷ'=>findOne()
+'쇼ㅔㄷㅍ미ㅕㄷ'=>typeValue()
+
+'려ㅜ츠메'=>funcMap( @^| )
+'ㅎㄷㅅ'=>get(^|)
+'ㄴㄷㅅ'=>set(^|)
+'ㅑㄴ'=>is(^|)
+'려ㅜㅊ'=>func(^|)
+'려ㅜ츠무'=>funcMap(^|)
+'ㅊ미ㅣ'=>call(^|)
+'ㅊ미ㅣㅠㅁ차'=>callback(^|)
+'ㅑㅟㅑㅜㄷ'=>inline(^|)
+'ㅔ갸ㅜㅅ'=>print("^|")
+'릇'=>fmt(^|)
+'ㅍㅁㄱ'=>var(^|)
+'ㅕㄴㄷ'=>use(^|)
+'침ㄴ니ㅐㅁㅇ'=>classLoad(^|)
+'믿ㄳ'=>alert(^|)
+'쇼ㅔ댈'=>typeof(^|)
+'ㅑㄴㄴㄷㅅ'=>isset(^|)
+'ㄷㅂ'=>eq(^|)
+'ㅎㅅ'=>gt(^|)
+'ㅣㅅ'=>lt(^|)
+'ㄷ텍'=>expr(^|)
+'채ㅜㄹ'=>conf(^|)
+'조두'=>when(^|)
+'_ㄱㅊ'=>_rc(^|)
+'_ㅁㄱㄱ'=>_arr(^|)
+'_ㅜㅐㅇㄷ'=>_node(^|)
+'ㅔㅁㅎ디ㅐㅁㅇ'=>pageLoad(^|)
+'ㅡㅁㅌ'=>max(^|)
+'ㅡㅑㅜ'=>min(^|)
+'ㅁㅇㅇ'=>add(^|)
+'메ㅔ둥'=>append(^|)
+'ㅁㄱㄱ'=>arr(^|)
+'래ㅜㅅ'=>font(^|)
+'ㅔ개ㅔ'=>prop(^|)
+'ㅔㅐㄴ'=>pos(^|)
+'ㅡㅁㅅ초'=>match(^|)
+'ㅕㅔㅔㄷㄱ'=>upper(^|)
+'ㅣㅐㅈㄷㄱ'=>lower(^|)
+'ㄱ드ㅐㅍㄷ'=>remove(^|)
+'믿ㄳ'=>alert(^|)
+'채ㅜ랴그'=>confirm(^|)
+'ㅁㅇ엠ㅎㄷ'=>addPage(^|)
+'ㅡㅁㅅ초'=>match(^|)
+'새ㅑㅜㅅ'=>toInt(^|)
+'새애ㅕㅠㅣㄷ'=>toDouble(^|)
+'새ㅠㅑㅜㅁ교'=>toBinary(^|)
+'샌ㅅ갸ㅜㅎ'=>toString(^|)
+'낷'=>sort(^|)
+'래쳔'=>focus(^|)
+'ㅇㄷㄴ새교'=>destroy(^|)
+'ㅁㅊ샾ㄷ'=>active(^|)
+'ㅁㅊ샤ㅐㅜ'=>action(^|)
+'ㅡ두ㅕ'=>menu(^|)
+'겨ㅜ'=>run(^|)
+'ㄴㅅㅁㄳ'=>start(^|)
+'ㅔㅕㅅ'=>put(^|)
+'ㅑㅝㄷㅊㅅ'=>inject(^|)
+'쟈소'=>with(^|)
+'ㄷㅍ두스메'=>eventMap(^|)
+'ㅔㅁㄱ두수ㅐㅇㄷ'=>parentNode(^|)
+'ㅁㅇ우ㅐㅇㄷ'=>addNode(^|)
+'개ㅐ수ㅐㅇㄷ'=>rootNode(^|)
+'ㅑㅜㅑ수ㅐㅇㄷ'=>initNode(^|)
+'냨ㄷ'=>size(^|)
+'초ㅑㅣㅇ채ㅕㅜㅅ'=>childCount(^|)
+'초ㅑㅣㅇ'=>child(^|)
+'ㅅㄷㅌㅅ쟝소'=>textWidth(^|)
+'ㅑㅡㅁㅎ뎌기'=>imageUrl(^|)
+'ㅗ싀'=>html(^|)
+'ㄱㄷㅊ및'=>recalc(^|)
+'ㄴㅅㅁㅅㄷ'=>state(^|)
+'ㅇㅁㅅㄷ'=>date(^|)
+'ㅕㅔㅇㅁㅅㄷ'=>update(^|)
+'ㅑㅜㅍ미ㅑㅇㅁㅅㄷ'=>invalidate(^|)
+'쳑ㄱ둣'=>current(^|)
+'ㄴㅊ개ㅣㅣ'=>scroll(^|)
+'ㄷ얏'=>edit(^|)
+'네ㅣㅑㅅ'=>split(^|)
+'랴ㅜ예ㅐㄴ'=>findPos(^|)
+'랴ㅜ임ㄴㅅ'=>findLast(^|)
+'랴ㅜㅇ'=>find(^|)
+'ㅡㅐㅍㄷ'=>move(^|)
+'초'=>ch(^|)
+'ㅑㅜㅊㄱ'=>incr(^|)
+'ㅡㅐㅇ디'=>model(^|)
+'ㄹㄷㅅ초'=>fetch(^|)
+'ㄹㄷㅅ초미ㅣ'=>fetchAll(^|)
+'ㄷㅌㄷㅊ'=>exec(^|)
+'ㅣㅐㅊ미샤ㅡㄷ'=>localtime(^|)
+'랴ㅜ애ㅜㄷ'=>findOne(^|)
+'ㄱ드ㅐㅍㄷ미ㅣ'=>removeAll(^|)
+'ㅇ딛ㅅㄷ'=>delete(^|)
+'쟝ㅎㄷㅅ'=>widget(^|)
+'ㄱㄷㅊㅅ'=>rect(^|)
+'ㅍ미ㅑㅇ'=>valid(^|)
+'ㅍ미ㅕㄷ'=>value(^|)
+'ㅅ갸ㅡ'=>trim(^|)
+'ㄱㄷㅁㅇ미ㅣ'=>readAll(^|)
+'ㅈ걋ㄷ미ㅣ'=>writeAll(^|)
+'ㅣㅐㅁ엠ㅎㄷ'=>loadPage(^|)
+'ㅣㅁㄴ샤ㅜㄴㄷㄱ샹'=>lastInsertId(^|)
+'랴ㅜ이묘ㅐㅕㅅ'=>findLayout(^|)
+'ㄷ테뭉'=>expand(^|)
+'ㅗㄷㅁㅇㄷ고댜홋'=>headerHeight(^|)
+'ㅗㄷㅁㅇㄷㄱ쟝소'=>headerWidth(^|)
+'ㅗㄷㅁㅇㄷ고ㅑㅇㄷ'=>headerHide(^|)
+'ㅁㅇ얏드'=>addItem(^|)
+'ㅁㅇ얏든'=>addItems(^|)
+'ㅁㅅ'=>at(^|)
+
+'랴ㅣㅣ'=>fill(^|)
+'ㅑ채ㅜ'=>icon(^|)
+'ㅅㄷㅌㅅ'=>text(^|)
+'ㅇㄱㅁ쟈ㅡㅁㅎㄷ'=>drawImage(^|)
+'ㄱㄷㅊ시ㅑㅜㄷ'=>rectLine(^|)
+'ㄴㅁㅍㄷ'=>save(^|)
+'ㄱㄷㄴ색ㄷ'=>restore()
+'ㅔ두'=>pen(^|)
+'ㅁㄱㅊ'=>arc(^|);
+'ㅇㅅㄷㅌㅅ'=>d.text(^|)
+'야ㅡㅎ'=>d.drawImage(^|);
+'ㅇㄱㅊ'=>d.rectLine(^|, 0, color)
+'이ㅑㅜㄷ'=>d.lineTo(^|)
+'으ㅐㅍㄷ'=>d.moveTo(^|);
+'엠소'=>d.drawPath(^|)
+'ㅇㄱㄷㅊㅅ'=>d.rect()
+'ㅑㅡㅁㅎ디ㅐㅁㅇ'=>imageLoad(^|)
+'ㅊ둣ㄷㄱ'=>center(^|)
+
+'ㅣㅊ'=>lightColor(^|)
+'ㅇㅊ'=>darkColor(^|)
+'얀뮤ㅣㄷ'=>disable()
+'두뮤ㅣㄷ'=>enable()
+'뇆'=>show(^|)
+'ㅗㅑㅇㄷ'=>hide(^|)
+'채ㅜㅅ먀ㅜㄴ'=>contains(^|)
+'ㅑㅡㅁㅎㄷ냨ㄷ'=>imageSize()
+'ㄱㄷㄹ'=>ref()
+'ㅕㅅㄹ8'=>utf8()
+'ㅏㄱ'=>kr()
+'네'=>sp(^|)
+'넷ㄷㅌㅅ'=>spText(^|)
+'ㄴㅅㄱ'=>str()
+'쳑'=>cur()
+'ㅜㄷㅌㅅ'=>next()
+'ㄱ뎐ㄷ'=>reuse()
+'ㅕㄴㄷ'=>use(^|)
+'촏찯ㅇ'=>checked(^|)
+'ㅏ됸'=>keys(^|)
+'채ㅔㅛ'=>copy(^|);
+'ㅑㄴ랴ㅣㄷ'=>isFile(^|)
+'ㅑㄴ래ㅣㅇㄷㄱ'=>isFolder(^|)
+'ㄴㄷ다'=>seek(^|)
+'ㅡㅏ약'=>mkdir(^|)
+'그약'=>rmDir(^|)
+'ㅔㅁ소'=>path(^|)
+'ㅣㅑㄴㅅ'=>list(^|)
+'ㅁㄱㅎㄴ'=>args(^|)
+'ㅑㅜㅇㄷㅌ'=>index(^|)
+
+'ㅊㄱㄷㅊㅅ'=>Class.rect(^|)
+'ㅊ채ㅣㅐㄱ'=>Class.color(^|)
+'체ㅐㅑㅜㅅ'=>Class.point(^|)
+'ㅊㅇㄱㅁㅈ'=>Class.draw(^|)
+'체먁'=>Class.pair(^|)
+'ㅊ유'=>Class.db("^|")
+'ㅊㅈ듀'=>Class.web("^|")
+'ㅊ잭ㅇㄷㄱ'=>Class.worker("^|")
+'ㅊ랴ㅣㄷ'=>Class.file(^|)
+'채ㅔㅛ'=>System.copyText(^|)
+'@ㅡㄷ'=>@me
+
+'딘ㄷ'=>else
+'소ㅑㄴ'=>this
+'ㅇㄷㄹ며ㅣㅅ'=>default:
+'ㅠㄱㄷ마'=>break;
+'채ㅜ샤ㅜㅕㄷ'=>continue;
+'ㄱㄷ셔구'=>return
+
+'뇬ㅅ드'=>System
+'ㅡㅁ소'=>Math
+'ㅊㄹ'=>Cf
+'침ㄴㄴ'=>Class
+'ㅅ겯'=>true
+'ㄹ민ㄷ'=>false
+'ㅜㅕㅣㅣ'=>null
+
+'ㅑㅇ='=>id="^|"
+'ㅅㄷㅌㅅ='=>text="^|"
+'ㅑ채ㅜ='=>icon="^|"
+'샤ㅔ='=>tip="^|"
+'ㄷㅍ둣='=>event="^|"
+'ㅍ미ㅕㄷ='=>value="^|"
+'ㅔㅁㅇ야ㅜㅎ='=>padding="^|"
+'ㄱ디ㅐㅁㅇ='=>reload="^|"
+'ㄴ쇼ㅣㄷ='=>style="^|"
+
+'유.'=>db.
+'ㅇ.'=>d.
+'ㅜㅐㅇㄷ.'=>node.
+'ㅔㅁㅎㄷ.'=>page.
+'ㅔㅁㄱ둣.'=>parent.
+'소ㅑㄴ.'=>this.
+'채ㅣㅐㄱ.'=>color.
+
+'소ㅑㄴ '=>this
+'ㅣㄷㄽ '=>left
+'갸홋 '=>right
+'ㅊ둣ㄷㄱ '=>center
+'ㅔㅁㄱ둣 '=>parent
+'ㅔㅁㅎㄷ '=>page
+'ㅊ뭎ㅁㄴ '=>canvas
+'침ㄴ냐ㅡㅔㅣ '=>classImpl
+'채ㅣㅐㄱ '=>color
+'ㄱㄷㅁㅇ '=>read
+'랴ㅜㅑ노 '=>finish
+'ㅌ '=>x
+'ㅛ '=>y
+'ㅑ후ㅐㄱㄷ '=>'ignore'
+
+'<ㅅ뮤ㅣㄷ'=><table>
+	^|
+</table>	
+'<ㅅㄱ'=><tr>
+	^|
+</tr>
+'<얖'=><div>
+	^|
+</div>
+'<ㅗ1'=><h1>
+	^|
+</h1>
+'<ㅗ2'=><h2>
+	^|
+</h2>
+'<ㅗ3'=><h3>
+	^|
+</h3>
+'<ㅗ4'=><h4>
+	^|
+</h4>
+'<래그'=><form 구분="폼">
+	^|
+</form>
+'<야미ㅐㅎ'=><dialog>
+	^|
+</dialog>
+'<ㅇㅁㅅㅁ'=><data>
+	^|
+</data>
+'<ㅅㄷㅌㅅ'=><text>
+	^|
+</text>
+'<ㅍㅁㄱ'=><var>
+	^|
+</var>
+'<ㅑㅟㅑㅜㄷ'=><inline>
+	^|
+</inline>
+'<ㅔㅁㅎㄷ'=><page 구분="페이지">
+	^|
+</page>
+'<퓨ㅐㅌ'=><vbox 구분="수직박스">
+	^|
+</vbox>
+'<ㅗㅠㅐㅌ'=><hbox 구분="수평박스">
+	^|
+</hbos>
+'<ㅣ묘ㅐㅕㅅ'=><layout 구분="박스">
+	^|
+</layout>
+'<갲'=><row 구분="줄">
+	^|
+</row>
+'<ㅎ개ㅕㅔ'=><group 구분="그룹박스">
+	^|
+</group>
+'<네ㅣㅑㅅㅅㄷㄱ'=><splitter 구분="분할창">
+	^|
+</splitter>
+'<정보'=><정보:
+	^|
+/>
+'<쿼리'=><쿼리:
+	^|
+/>
+
+'<에디터'=><textedit 구분="에디터" event="@"^|>
+'<라벨'=><label text="^|">
+'<입력'=><input event="@"^|>
+'<버튼'=><button text="^|" event="@">
+'<툴'=><toolbutton icon="^|" event="@">
+'<옵션'=><radio text="^|" event="@">
+'<체크'=><check text="^|" event="@">
+'<콤보'=><combo event="@"^|>
+'<트리'=><tree event="@"^|>
+'<그리드'=><grid event="@"^|>
+'<편집기'=><editor event="@"^|>
+'<공백'=><space>
+'<탭'=><tab id="^|">
+'<진행'=><progress event="@"^|>
+'<웹뷰'=><webview event="@"^|>
+'<날짜'=><date event="@"^|>
+'<달력'=><calendar event="@"^|>
+'<시간'=><time event="@"^|>
+
+'<ㄷ야색'=><textedit 구분="에디터" event="@"^|>
+'<ㅔㅣ묟ㄱ'=><player 구분="미디어" event="@"^|>
+'<ㅊ뭎ㅁㄴ'=><canvas 구분="캔바스" event="@"^|>
+'<ㅣ뮤디'=><label text="^|">
+'<ㅑㅞㅕㅅ'=><input event="@"^|>
+'<ㅠㅕㅅ새ㅜ'=><button text="^|" event="@">
+'<새ㅐㅣ'=><toolbutton icon="^|" event="@">
+'<ㄱㅁ야ㅐ'=><radio text="^|" event="@">
+'<촏차'=><check text="^|" event="@">
+'<채ㅡㅠㅐ'=><combo event="@"^|>
+'<ㅅㄱㄷㄷ'=><tree event="@"^|>
+'<ㅎ걍'=><grid event="@"^|>
+'<ㅔ갷ㄱㄷㄴㄴ'=><progress event="@"^|>
+'<ㅇㅁㅅㄷ'=><date event="@"^|>
+'<ㅊ미둥ㅁㄱ'=><calendar event="@"^|>
+'<샤ㅡㄷ'=><time event="@"^|>
+
+'<값'=><값:^|>
+'<노드'=><노드:^|>
+'<배열'=><배열:^|>
+'<영역'=><영역:^|>
+'<포인트'=><포인트:^|>
+'<크기'=><크기:^|>
+'<색'=><색:^|>
+'<그리기'=><그리기:^|>
+'<디비'=><db:^|>
+'<파일'=><file:^|>
+'<웹'=><web:^|>
+'<배치'=><batch:^|>
+'<유'=><db:^|>
+'<랴ㅣㄷ'=><file:^|>
+'<ㅈ듀'=><web:^|>
+'<ㅈㅁㄴ'=><was:^|>
+'<ㅠㅁㅅ초'=><batch:^|>
+'<재갇ㄱ'=><worker:^|>
+'<ㅈㅁㅅ촏ㄱ'=><watcher:^|>
+'<캬ㅔ'=><zip:^|>
+'<내찯ㅅ'=><socket:^|>
+'<ㄷㅌㅊ디'=><excel:^|>
+'<며야ㅐ'=><audio:^|>
+'<ㅔㅇㄹ'=><pdf:^|>
+'<채ㅜㅅ개ㅣ'=><control: ^|>
+'<ㅊㅅ기'=><control: ^|>
